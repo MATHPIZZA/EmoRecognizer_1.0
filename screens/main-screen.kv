@@ -1,0 +1,25 @@
+#:import hex kivy.utils.get_color_from_hex
+<MainScreen>:
+        canvas:
+                Color:
+                        rgba: hex('#069170')
+                Rectangle:
+                        size: self.size
+        BoxLayout:
+                orientation: 'vertical'
+                Image:
+                        source: 'data/emotive_logo_full_right.png'
+                        size_hint: 1, .5
+                FloatLayout:
+                        id: camera_layout
+                        size_hint: 1, .9
+                StackLayout:
+                        id: emoji_display
+                        size_hint: 0.9, .20
+                        pos_hint: {'x': .05}
+                        orientation: 'lr-tb'
+                BoxLayout:
+                        orientation: 'horizontal'
+                        size_hint: 1, .001
+                  
+           

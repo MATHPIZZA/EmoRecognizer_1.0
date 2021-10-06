@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = EmoRecognizer_1.0
+title = EmoRecognizer_1
 
 # (str) Package name
-package.name = emorecognizer_1.0
+package.name = emorecognizer_1.
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.MATPIZZA
+package.domain = org.mathpizza
 
 # (str) Source code where the main.py live
 source.dir = .
